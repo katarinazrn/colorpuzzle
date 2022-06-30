@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    padding: 0;
+    min-width: 100vw;
+    min-height: 100vh;
+    background-image: linear-gradient(rgb(43, 6, 61), rgb(7, 4, 39));
+}
+
+.content {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#game {
+    margin: 0 auto;
+}
+
+h1 {
+    color: rgb(219, 219, 233);
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.buttons button {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    margin: 10px;
+    padding: 5px 15px;
+    font-weight: bold;
+    font-size: 22px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.buttons button:nth-last-child(2) {
+    color: rgb(166, 171, 179);
+}
+
+.buttons button:nth-last-child(1) {
+    color: rgb(218, 177, 172);
+}
+
+.buttons button:hover {
+    opacity: 0.8;
+}
