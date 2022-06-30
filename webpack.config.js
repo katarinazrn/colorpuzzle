@@ -11,7 +11,8 @@ module.exports = {
     output: {
         path: path.resolve(__dirname, 'dist'),
         filename: 'bundle.js',
-        assetModuleFilename: '[name][ext]'
+        assetModuleFilename: '[name][ext]',
+        publicPath: "/colorpuzzle/",
     },
     module: {
         rules: [
